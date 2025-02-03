@@ -34,14 +34,14 @@ bandit 0
 
 > password for bandit0: `bandit0`
 
-![SCR-20250202-CinQ9Nnk](/Users/elias/Library/Caches/Clop/images/SCR-20250202-CinQ9Nnk.png)
+![SCR-20250202-CinQ9Nnk](assets/images/SCR-20250202-CinQ9Nnk.png)
 
 ```bash
 ls
 cat readme
 ```
 
-![SCR-20250202-KNlMr3wm](/Users/elias/Library/Caches/Clop/images/SCR-20250202-KNlMr3wm.png)
+![SCR-20250202-KNlMr3wm](assets/SCR-20250202-KNlMr3wm.png)
 
 <details>
   <summary>password for bandit1</summary>
@@ -57,7 +57,7 @@ ls -lah
 cat ./-
 ```
 
-![SCR-20250202-dUJvM2ej](/Users/elias/Library/Caches/Clop/images/SCR-20250202-dUJvM2ej.png)
+![SCR-20250202-dUJvM2ej](assets/SCR-20250202-dUJvM2ej.png)
 
 <details>
   <summary>password for bandit2</summary>
@@ -73,7 +73,7 @@ ls -lah
 cat ./"spaces in this filename"
 ```
 
-![SCR-20250202-MYP3S6oa](/Users/elias/Library/Caches/Clop/images/SCR-20250202-MYP3S6oa.png)
+![SCR-20250202-MYP3S6oa](assets/SCR-20250202-MYP3S6oa.png)
 
 <details>
   <summary>password for bandit3</summary>
@@ -91,7 +91,7 @@ ls -lah
 cat ./...Hiding-From-You
 ```
 
-![SCR-20250202-fp4aQ6Pm](/Users/elias/Library/Caches/Clop/images/SCR-20250202-fp4aQ6Pm.png)
+![SCR-20250202-fp4aQ6Pm](assets/SCR-20250202-fp4aQ6Pm.png)
 
 <details>
   <summary>password for bandit4</summary>
@@ -129,7 +129,7 @@ ls -lah
 file ./-* | grep text
 ```
 
-![SCR-20250202-kz48VK7Q](/Users/elias/Library/Caches/Clop/images/SCR-20250202-kz48VK7Q.png)
+![SCR-20250202-kz48VK7Q](assets/SCR-20250202-kz48VK7Q.png)
 
 <details>
   <summary>password for bandit5</summary>
@@ -184,7 +184,7 @@ find . -type f -size 1033c -exec file {} \; | grep text
 cat ./maybehere07/.file2
 ```
 
-![SCR-20250202-hVMeyqYx](/Users/elias/Library/Caches/Clop/images/SCR-20250202-hVMeyqYx.png)
+![SCR-20250202-hVMeyqYx](assets/SCR-20250202-hVMeyqYx.png)
 
 <details>
   <summary>password for bandit6</summary>
@@ -201,7 +201,7 @@ find . -type f -size 33c -user bandit7 -group bandit6 2> dev/null
 cat ./var/lib/dpkg/info/bandit7.password
 ```
 
-![SCR-20250202-NjDyOWJD](/Users/elias/Library/Caches/Clop/images/SCR-20250202-NjDyOWJD.png)
+![SCR-20250202-NjDyOWJD](assets/SCR-20250202-NjDyOWJD.png)
 
 <details>
   <summary>password for bandit7</summary>
@@ -217,7 +217,7 @@ ls -lah
 find . -type f -iname "data.txt" | xargs grep -i "millionth"
 ```
 
-![SCR-20250202-26ITiCQf](/Users/elias/Library/Caches/Clop/images/SCR-20250202-26ITiCQf.png)
+![SCR-20250202-26ITiCQf](assets/SCR-20250202-26ITiCQf.png)
 
 <details>
   <summary>password for bandit8</summary>
@@ -249,7 +249,7 @@ ls -lah
 sort data.txt | uniq -iu
 ```
 
-![SCR-20250202-fJs3FtnF](/Users/elias/Library/Caches/Clop/images/SCR-20250202-fJs3FtnF.png)
+![SCR-20250202-fJs3FtnF](assets/SCR-20250202-fJs3FtnF.png)
 
 <details>
   <summary>password for bandit9</summary>
@@ -271,7 +271,7 @@ ls -lah
 strings data.txt | grep -E "={2,}"
 ```
 
-![SCR-20250202-9J3GmSC9](/Users/elias/Library/Caches/Clop/images/SCR-20250202-9J3GmSC9.png)
+![SCR-20250202-9J3GmSC9](assets/SCR-20250202-9J3GmSC9.png)
 
 <details>
   <summary>password for bandit10</summary>
@@ -297,7 +297,7 @@ base64 -d data.txt | cat
 
 
 
-![SCR-20250202-n94BBN2u](/Users/elias/Library/Caches/Clop/images/SCR-20250202-n94BBN2u.png)
+![SCR-20250202-n94BBN2u](assets/SCR-20250202-n94BBN2u.png)
 
 <details>
   <summary>password for bandit11</summary>
@@ -312,14 +312,14 @@ base64 -d data.txt | cat
 tr <optons> <string1> <string2>
 ```
 
-![ROT13_table_with_example.svg](/Users/elias/Library/Caches/Clop/images/ROT13_table_with_example.svg.png)
+![ROT13_table_with_example.svg](assets/ROT13_table_with_example.svg.png)
 
 ```bash
 ls -lah
 cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 ```
 
-![SCR-20250202-XWbXMeCD](/Users/elias/Library/Caches/Clop/images/SCR-20250202-XWbXMeCD.png)
+![SCR-20250202-XWbXMeCD](assets/SCR-20250202-XWbXMeCD.png)
 
 <details>
   <summary>password for bandit12</summary>
@@ -423,7 +423,7 @@ chmod +x uncompressor.sh
 ./uncompressor.sh data
 ```
 
-![SCR-20250202-BBsqCkxn](/Users/elias/Library/Caches/Clop/images/SCR-20250202-BBsqCkxn.png)
+![SCR-20250202-BBsqCkxn](assets/SCR-20250202-BBsqCkxn.png)
 
 <details>
   <summary>password for bandit13</summary>
