@@ -26,13 +26,13 @@ end
 
 ---
 
-## Level $0$
+## Level 0
 
 ```bash
 bandit 0
 ```
 
-> password for bandit$0$: `bandit0`
+> password for bandit0: `bandit0`
 
 ![SCR-20250202-CinQ9Nnk](/Users/elias/Library/Caches/Clop/images/SCR-20250202-CinQ9Nnk.png)
 
@@ -60,7 +60,7 @@ cat ./-
 ![SCR-20250202-dUJvM2ej](/Users/elias/Library/Caches/Clop/images/SCR-20250202-dUJvM2ej.png)
 
 <details>
-  <summary>password for banditw</summary>
+  <summary>password for bandit2</summary>
   263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 </details>
 
