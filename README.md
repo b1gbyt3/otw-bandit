@@ -34,7 +34,7 @@ bandit 0
 
 > password for bandit0: `bandit0`
 
-![SCR-20250202-CinQ9Nnk](assets/images/SCR-20250202-CinQ9Nnk.png)
+![SCR-20250202-CinQ9Nnk](assets/SCR-20250202-CinQ9Nnk.png)
 
 ```bash
 ls
