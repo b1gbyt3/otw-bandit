@@ -312,7 +312,7 @@ base64 -d data.txt | cat
 tr <optons> <string1> <string2>
 ```
 
-![ROT13_table_with_example.svg](assets/ROT13_table_with_example.svg.png)
+![ROT13_table_with_example.svg](assets/ROT13_table_with_example.jpeg)
 
 ```bash
 ls -lah
